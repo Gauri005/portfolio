@@ -838,3 +838,50 @@ input, textarea{
   color:#1e4db7;
   font-weight:600;
 }
+.training-card{
+  background:white;
+  padding:30px;
+  border-radius:18px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+  margin-top:20px;
+}
+
+.training-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:15px;
+}
+
+.training-header h2{
+  color:#1e3c72;
+}
+
+.training-header span{
+  font-size:14px;
+  color:#555;
+}
+
+.training-details{
+  margin-left:20px;
+  line-height:1.6;
+}
+
+.training-details li{
+  margin-bottom:8px;
+}
+
+.cert-btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 18px;
+  background:linear-gradient(90deg,#1e3c72,#2a5298);
+  color:white;
+  border-radius:25px;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.cert-btn:hover{
+  opacity:0.8;
+}
